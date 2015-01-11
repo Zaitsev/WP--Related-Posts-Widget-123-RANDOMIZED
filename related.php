@@ -231,7 +231,7 @@ $sql = "SELECT ID,post_title,post_date "
 
 		. "AND (id NOT IN ($idslist)) "
 
-		." order by post_title "
+		." order by rand() "
 
 		."LIMIT ".$new_limit;
 
